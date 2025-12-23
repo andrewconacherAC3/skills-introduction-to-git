@@ -23,4 +23,3 @@ jobs:
           guid: ${{ secrets.AC_ACCOUNTS_GUID }}
           version: "${{ env.RELEASE_VERSION }}"
           user: "${{ github.actor }}"
-``
