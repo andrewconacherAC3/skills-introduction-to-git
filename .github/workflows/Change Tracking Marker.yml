@@ -1,8 +1,8 @@
 name: Change Tracking Marker
-  on:
-    release:
-      types: [published]
-
+ on:
+  workflow_dispatch:
+  release:
+    types: [published]
   jobs:
     newrelic:
       runs-on: ubuntu-latest
